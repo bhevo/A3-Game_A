@@ -1535,7 +1535,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.28, y: 1.75, z: 0.21}
+  m_Size: {x: 2, y: 2.27, z: 0.7}
   m_Center: {x: 0, y: 0.88, z: 0}
 --- !u!195 &4759491060096033411
 NavMeshAgent:
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk_Speed: 0.5
-  run_Speed: 4
+  run_Speed: 2
   chase_Distance: 15
   attack_Distance: 1.8
   chase_After_Attack_Distance: 2
@@ -1605,6 +1605,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d69af23be25be4295018c366498147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  is_Player: 0
+  is_Boar: 0
+  is_Cannibal: 1
 --- !u!1 &4294335345139385581
 GameObject:
   m_ObjectHideFlags: 0
